@@ -18,7 +18,7 @@ blocks:
             - echo $VAR1
       prologue:
           commands:
-            - echo Prologue command 1
+            - echo Using YAML Grammar v1.0
             - echo Prologue command 2
             - echo $PI
       env_vars:
