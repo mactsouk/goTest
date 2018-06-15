@@ -13,8 +13,9 @@ blocks:
             - cd goTest 
             - pwd
             - ls -al
-            - cat hw.go
             - echo $SEMAPHORE_GIT_DIR
+            - cat hw.go
+            - ls -al
             - echo $VAR1
       prologue:
           commands:
